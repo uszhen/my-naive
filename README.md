@@ -1,3 +1,11 @@
+# 服务器代理服务 Server Proxy Service
+
+如果你觉得本项目对你有用,而且你也恰巧有这方面的需求,你也可以选择通过我的购买链接赞助我  
+- [搬瓦工GIA服务器](https://bandwagonhost.com/aff.php?aff=41846)  - - - 仅推荐购买GIA套餐 - - -   
+
+如果你希望购买一些现成的代理服务,可选择下述代理服务
+- [搬瓦工官方机场](https://justmysocks.net/members/aff.php?aff=16884)  
+
 # NaïveProxy ![build workflow](https://github.com/klzgrad/naiveproxy/actions/workflows/build.yml/badge.svg)
 
 NaïveProxy uses Chromium's network stack to camouflage traffic with strong censorship resistence and low detectablility. Reusing Chrome's stack also ensures best practices in performance and security.
@@ -21,7 +29,7 @@ The Naïve server here works as a forward proxy and a packet length padding laye
 
 ## Download NaïveProxy
 
-Download [here](https://github.com/klzgrad/naiveproxy/releases/latest). Supported platforms include: Windows, Android (with [Exclave](https://github.com/dyhkwong/Exclave), [husi](https://github.com/xchacha20-poly1305/husi), [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)), Linux, Mac OS, and OpenWrt ([support status](https://github.com/klzgrad/naiveproxy/wiki/OpenWrt-Support)).
+Download [here](https://github.com/klzgrad/naiveproxy/releases/latest). Supported platforms include: Windows, Android (with [Exclave](https://github.com/dyhkwong/Exclave), [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)), Linux, Mac OS, and OpenWrt ([support status](https://github.com/klzgrad/naiveproxy/wiki/OpenWrt-Support)).
 
 Users should always use the latest version to keep signatures identical to Chrome.
 
@@ -79,7 +87,9 @@ Or `quic://user:pass@example.com`, if it works better. See also [parameter usage
 
 ## Third-party integration
 
-* [v2rayN](https://github.com/2dust/v2rayN), GUI client
+* [v2rayN](https://github.com/2dust/v2rayN), GUI client, Windows
+* [NekoBox for Android](https://github.com/MatsuriDayo/NekoBoxForAndroid), Proxy toolchain, Android
+* [NekoRay / NekoBox For PC](https://github.com/MatsuriDayo/nekoray), Qt based GUI, Windows, Linux
 
 ## Notes for downstream
 
